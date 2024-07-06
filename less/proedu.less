@@ -1,0 +1,66 @@
+.projects-container {
+    h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.projects-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid @tird-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    img {
+        border-radius: 8px;
+        margin-right: 20px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.projects-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        margin: 5px 0;
+    }
+}
+
+.education-section {
+    h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-item {
+    text-align: left;
+    max-width: 300px;
+
+    p {
+        margin: 5px 0;
+        color: @fourth-color;
+    }
+
+    h3 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: @fourth-color;
+    }
+}

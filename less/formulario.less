@@ -1,0 +1,35 @@
+.field {
+    margin-bottom: 20px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, 
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid @fifth-color;
+        box-sizing: border-box;
+    }
+}
+
+.actions {
+    text-align: center;
+
+    input[type="submit"] {
+        background-color: @primary-color;
+        color: @secondary-color;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: @sixth-color;
+        }
+    }
+}
